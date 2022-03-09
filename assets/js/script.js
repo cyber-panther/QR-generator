@@ -5,7 +5,7 @@ $("#submit").on("click", () => {
 function qrmake() {
     var text = $("#QR-text").val();
 
-  var qrcode = new QRCode(document.getElementById("qrcode1"), {
+  var qrcode = new QRCode(document.getElementById("qrcode"), {
     text: text,
     correctLevel: QRCode.CorrectLevel.H,
   });
