@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <!-- enter description -->
+    <meta name="description" content="QR generation website" />
+    <meta name="author" content="Agrim Gautam" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- enter Title -->
+    <title>QR generater</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+
+<body>
+
+    <div class="container my-5">
+        <form>
+                <div class="form-group">
+                    <label for="QR-text">Enter text for QR:</label>
+                    <textarea class="form-control" id="QR-text" rows="1"></textarea>
+                </div>
+                <div class="btn btn-info" id="submit">Submit</div>
+        </form>
+<br>
+        <!-- <div id="qrcode" class="my-5">QR will display here</div> -->
+
+        <div id="qrcode1"></div>
+    </div>
+
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+
+<script src="assets/js/qrcode.min.js"></script>
+<script src="assets/js/script.js"></script>
+
+</html>
